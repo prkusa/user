@@ -8,7 +8,7 @@ public class UserController {
 	
 	@GetMapping("/home")
 	public String myRoute() {
-		return "Welcome To Spring Boot";
+		return "Welcome To Spring Boot - Updated";
 	}
 
 }
